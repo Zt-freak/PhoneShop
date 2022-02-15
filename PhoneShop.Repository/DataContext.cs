@@ -7,6 +7,9 @@ namespace PhoneShop.Repository
 {
     public class DataContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
+        public DataContext(){}
+        public DataContext(DbContextOptions options) : base(options){}
+
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Order> Orders { get; set; }
@@ -15,7 +18,7 @@ namespace PhoneShop.Repository
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost,1433;User Id=SA;Database=PhoneShop;Password=yourStrong(!)Password;");
+            //optionsBuilder.UseSqlServer("Server=localhost,1433;User Id=SA;Database=PhoneShop;Password=yourStrong(!)Password;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

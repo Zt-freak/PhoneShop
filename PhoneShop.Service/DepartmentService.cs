@@ -2,6 +2,7 @@
 using PhoneShop.Models.Interfaces.Services;
 using PhoneShop.Repository.Interfaces;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PhoneShop.Service
@@ -31,8 +32,8 @@ namespace PhoneShop.Service
 
         public void Delete(int id)
         {
-            Department deleteBrand = _departmentRepo.GetById(id);
-            Delete(deleteBrand);
+            Department deleteDepartment = _departmentRepo.GetById(id);
+            Delete(deleteDepartment);
         }
 
         public void Delete(Department department)
@@ -43,22 +44,33 @@ namespace PhoneShop.Service
 
         public Department Get(int id)
         {
-            throw new NotImplementedException();
+            if (!(id > 0))
+                throw new ArgumentException();
+
+            Department resultDepartment = _departmentRepo.GetById(id);
+
+            if (resultDepartment == null)
+                throw new KeyNotFoundException();
+
+            return resultDepartment;
         }
 
         public IQueryable<Department> GetAll()
         {
-            throw new NotImplementedException();
+            return _departmentRepo.GetAll();
         }
 
         public Department Update(int id, string name)
         {
-            throw new NotImplementedException();
+            Department updateDepartment = Get(id);
+            updateDepartment.Name = name;
+
+            return Update(updateDepartment);
         }
 
         public Department Update(Department brand)
         {
-            throw new NotImplementedException();
+            return _departmentRepo.Update(brand);
         }
     }
 }
