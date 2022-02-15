@@ -1,0 +1,346 @@
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.107, 3299631352937, datacollector.dll, Version: 16.11.0
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.112, 3299631379346, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,61826,--parentprocessid,20828,--diag,C:\Users\bnkho\source\repos\PhoneShop\PhoneShop.Tests\bin\Debug\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-02-15_10-34-17_00356_4.log,--tracelevel,4
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.112, 3299631380340, datacollector.dll, DataCollector: Monitoring parent process with id: '20828'
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.126, 3299631526738, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:61826 
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.147, 3299631728543, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:17.154, 3299631798081, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:17.154, 3299631798892, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.207, 3299632335483, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.210, 3299632364153, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Users\\bnkho\\source\\repos\\PhoneShop\\PhoneShop.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\5.0.405\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.405\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Users\\bnkho\\source\\repos\\PhoneShop\\PhoneShop.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Users\\bnkho\\source\\repos\\PhoneShop\\PhoneShop.Tests\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\PhoneShop.Tests.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.240, 3299632662609, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.241, 3299632668034, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\5.0.405\Extensions'.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.241, 3299632668544, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.245, 3299632709042, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.245, 3299632710572, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.245, 3299632710956, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.245, 3299632711187, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.245, 3299632715873, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\5.0.405\Extensions,C:\Program Files\dotnet\sdk\5.0.405
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632724990, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632726118, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632726506, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632726733, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632727113, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.246, 3299632727861, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.405\Extensions,C:\Program Files\dotnet\sdk\5.0.405
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.247, 3299632728316, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.405\Extensions,C:\Program Files\dotnet\sdk\5.0.405
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.247, 3299632731587, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.247, 3299632732133, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.405\Extensions'.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.247, 3299632735310, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.248, 3299632738746, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 25216, 1, 2022/02/15, 10:34:17.248, 3299632746722, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.249, 3299632756539, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.249, 3299632757061, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.405\Extensions'.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.250, 3299632759171, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.250, 3299632761627, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632772629, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632775546, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.405\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632776109, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632776341, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632776540, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632776731, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:17.251, 3299632776920, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.252, 3299632786273, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 25216, 1, 2022/02/15, 10:34:17.253, 3299632789830, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.257, 3299632833367, datacollector.dll, Listening on Endpoint : 127.0.0.1:61828
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.262, 3299632886278, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:17.283, 3299633089198, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 2836
+}
+TpTrace Information: 0 : 25216, 5, 2022/02/15, 10:34:17.466, 3299634918691, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 25216, 5, 2022/02/15, 10:34:17.466, 3299634919524, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.370, 3299643962301, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.376, 3299644027148, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.379, 3299644049472, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "") - 9c044915-45c1-7c9c-eddb-657a4edbdc22' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.379, 3299644057435, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.380, 3299644060496, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.380, 3299644062001, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1) - d9935348-36d1-79c0-92c8-2e62f5b5a5d7' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.435, 3299644610248, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.437, 3299644631310, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.439, 3299644657207, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1) - d9935348-36d1-79c0-92c8-2e62f5b5a5d7' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.447, 3299644731190, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.447, 3299644733735, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.447, 3299644735422, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "") - 9c044915-45c1-7c9c-eddb-657a4edbdc22' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.448, 3299644746666, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.449, 3299644748507, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.449, 3299644749554, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: " ") - abae2ba3-cc89-8466-855e-e61465563662' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.449, 3299644752983, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.449, 3299644755219, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.450, 3299644762357, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 12) - 4f0aa168-efd3-a82d-901a-c953737cf87b' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.450, 3299644766556, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.451, 3299644768558, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.451, 3299644769582, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 12) - 4f0aa168-efd3-a82d-901a-c953737cf87b' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.451, 3299644777213, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.452, 3299644779205, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.452, 3299644780328, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: " ") - abae2ba3-cc89-8466-855e-e61465563662' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.452, 3299644785156, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.452, 3299644787212, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.453, 3299644788421, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 2147483647) - 7725118b-8177-6667-37a7-d03c2b896a27' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.453, 3299644794624, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.453, 3299644797927, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.454, 3299644799466, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "   ") - b2faa321-182d-eeee-7dcd-a10c8a23b0f4' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.454, 3299644804242, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.454, 3299644806068, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.454, 3299644807057, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 2147483647) - 7725118b-8177-6667-37a7-d03c2b896a27' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.455, 3299644811703, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.455, 3299644813927, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.455, 3299644814941, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1312) - 6f258f2a-f924-4422-1fc7-dbf4f5016f99' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644818500, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644820108, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644820995, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "   ") - b2faa321-182d-eeee-7dcd-a10c8a23b0f4' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644825098, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644826800, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.456, 3299644827626, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "\n") - 95a35b11-fd64-fd35-9761-a9a89b611c3d' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.457, 3299644831011, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.457, 3299644832723, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.457, 3299644833678, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1312) - 6f258f2a-f924-4422-1fc7-dbf4f5016f99' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644837977, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644839876, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644840856, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "\n") - 95a35b11-fd64-fd35-9761-a9a89b611c3d' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644845324, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644847066, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.458, 3299644847914, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: null) - 308dbdcf-c33c-f7a5-3245-875b88d20759' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.459, 3299644851452, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.459, 3299644853083, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.459, 3299644854017, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: null) - 308dbdcf-c33c-f7a5-3245-875b88d20759' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.488, 3299645146846, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.489, 3299645149756, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.489, 3299645151049, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: " ") - 0c3ae63f-2a4d-ae54-7926-4456d5bc2dbf' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.489, 3299645156867, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.490, 3299645160076, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.490, 3299645161487, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: null) - c3e8ac6e-5ef4-1d90-3720-1539adf6d699' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.490, 3299645166252, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.491, 3299645168156, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.491, 3299645169339, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: null) - c3e8ac6e-5ef4-1d90-3720-1539adf6d699' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.491, 3299645176377, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.492, 3299645178160, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.492, 3299645179057, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "\n") - b6e04274-43c2-778b-b745-98c9681964fe' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.492, 3299645183066, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.492, 3299645185021, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.492, 3299645186297, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: " ") - 0c3ae63f-2a4d-ae54-7926-4456d5bc2dbf' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.493, 3299645193186, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.493, 3299645195391, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.493, 3299645196498, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "   ") - 9ecae0ac-339c-8a90-bd42-39a095d62990' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.494, 3299645200631, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.494, 3299645202516, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.494, 3299645203525, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "\n") - b6e04274-43c2-778b-b745-98c9681964fe' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.495, 3299645208407, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.495, 3299645210501, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.495, 3299645211633, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "   ") - 1dabe76e-5e2f-e6ae-8038-2814186377b1' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.495, 3299645216110, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.495, 3299645217903, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.496, 3299645218903, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "   ") - 9ecae0ac-339c-8a90-bd42-39a095d62990' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.496, 3299645223481, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.496, 3299645225270, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.496, 3299645226189, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: null) - 9c476d81-197f-19ae-b60d-11f2b23615bc' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.497, 3299645230068, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.497, 3299645231856, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.497, 3299645232935, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "   ") - 1dabe76e-5e2f-e6ae-8038-2814186377b1' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.497, 3299645237356, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.498, 3299645239225, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.498, 3299645240160, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: " ") - 75bce98a-90bf-8df6-2a05-36a45a4628a6' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.498, 3299645244634, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.498, 3299645246445, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.498, 3299645247359, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: null) - 9c476d81-197f-19ae-b60d-11f2b23615bc' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.499, 3299645251385, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.499, 3299645253017, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.499, 3299645253854, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "\n") - cdf837cc-ed37-5a0f-0d89-28051a91a549' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.500, 3299645258675, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.500, 3299645260426, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.500, 3299645261360, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: " ") - 75bce98a-90bf-8df6-2a05-36a45a4628a6' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.500, 3299645266559, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.501, 3299645268507, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.501, 3299645269410, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "") - 694c0130-c3f7-3fba-b4cf-fe76192560d1' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.501, 3299645273909, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.501, 3299645275937, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.501, 3299645276896, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "\n") - cdf837cc-ed37-5a0f-0d89-28051a91a549' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.502, 3299645287399, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.503, 3299645289154, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.503, 3299645290070, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "") - b983a996-e6bd-9303-96b6-5c52e28defe0' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.503, 3299645293780, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.503, 3299645295536, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.503, 3299645296487, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "") - 694c0130-c3f7-3fba-b4cf-fe76192560d1' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.504, 3299645301644, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.504, 3299645303562, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.504, 3299645304565, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 2147483647) - 40fc2bcf-a091-c597-4425-29b53a92c059' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.505, 3299645308197, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.505, 3299645309921, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.505, 3299645310868, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmpty(inputName: "") - b983a996-e6bd-9303-96b6-5c52e28defe0' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.505, 3299645315466, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.505, 3299645317219, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.506, 3299645318035, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "") - 83baa6ae-f6bf-c548-62fd-eb3b0c430fcd' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.506, 3299645321545, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.506, 3299645323099, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.506, 3299645323980, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 2147483647) - 40fc2bcf-a091-c597-4425-29b53a92c059' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.506, 3299645327830, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.507, 3299645329348, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.507, 3299645330152, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1) - b48bf188-658f-27bc-4ab2-7c55c17f34a1' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.507, 3299645333785, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.507, 3299645335413, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.507, 3299645336303, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1) - b48bf188-658f-27bc-4ab2-7c55c17f34a1' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.508, 3299645340334, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.508, 3299645342084, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.508, 3299645343075, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1312) - 9dbc2dce-212c-8630-f08f-12dee08a8b55' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.508, 3299645347317, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.509, 3299645349006, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.509, 3299645349859, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "") - 83baa6ae-f6bf-c548-62fd-eb3b0c430fcd' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.509, 3299645354492, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.509, 3299645357276, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.510, 3299645358153, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: " ") - 067ea5b2-f1fc-9e19-ffb4-f0e5d77b7ec2' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.510, 3299645363238, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.510, 3299645365386, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.510, 3299645366602, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 1312) - 9dbc2dce-212c-8630-f08f-12dee08a8b55' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.511, 3299645370664, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.511, 3299645372626, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.511, 3299645373735, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 12) - 54398375-798f-4a09-6ac5-2dea787d24eb' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.511, 3299645377205, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.512, 3299645378824, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.512, 3299645379663, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: " ") - 067ea5b2-f1fc-9e19-ffb4-f0e5d77b7ec2' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.512, 3299645384041, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.512, 3299645385663, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.512, 3299645386524, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: null) - 4ec97c2d-562d-89a1-2050-01362472c4cf' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.513, 3299645390031, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.513, 3299645391971, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.513, 3299645392868, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_ThrowArgumentException_WhenIdIsSet(inputId: 12) - 54398375-798f-4a09-6ac5-2dea787d24eb' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.514, 3299645402638, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.514, 3299645404389, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.514, 3299645405242, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_CreateANewDepartment_FromNameString - 6e0fa4f2-6718-815c-9bd2-b1e4f59e1df6' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.515, 3299645410358, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.515, 3299645412066, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.515, 3299645413063, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: null) - 4ec97c2d-562d-89a1-2050-01362472c4cf' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.519, 3299645448388, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.519, 3299645451387, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.519, 3299645453206, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "   ") - 6218b7ea-589c-a2a9-ed11-fdf2b453f345' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.520, 3299645462214, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.520, 3299645465401, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.520, 3299645467198, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "   ") - 6218b7ea-589c-a2a9-ed11-fdf2b453f345' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.521, 3299645474989, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.521, 3299645477502, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.522, 3299645479068, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "\n") - 945ececa-48af-f073-1aa5-6422f430ae0f' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.522, 3299645485062, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.522, 3299645486748, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.522, 3299645487696, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_ThrowArgumentNullException_WhenNameIsEmptyWithStringInput(inputName: "\n") - 945ececa-48af-f073-1aa5-6422f430ae0f' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.523, 3299645493791, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.523, 3299645495380, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.523, 3299645496207, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_CreateANewBrand_FromNameString - fb7a29ba-69f0-f10b-5e9f-635d9b64596f' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.524, 3299645500747, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.524, 3299645502558, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.524, 3299645504419, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_CreateANewDepartment_FromNameString - 6e0fa4f2-6718-815c-9bd2-b1e4f59e1df6' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.525, 3299645510266, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.525, 3299645512084, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.525, 3299645513224, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_CreateANewBrand_FromNameString - fb7a29ba-69f0-f10b-5e9f-635d9b64596f' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.526, 3299645519577, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.526, 3299645521904, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.526, 3299645523031, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_CreateANewDepartment_FromObject - 679980eb-313a-4e68-4b46-227cecf589ee' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.526, 3299645526373, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.526, 3299645527916, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.527, 3299645528717, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_CreateANewBrand_FromBrandObject - 517a26fd-c0c3-fd27-e1ad-48ce673a0e13' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.527, 3299645532140, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.527, 3299645533716, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.527, 3299645534616, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Create.ItShould_CreateANewBrand_FromBrandObject - 517a26fd-c0c3-fd27-e1ad-48ce673a0e13' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645538235, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645539684, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645540502, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.DepartmentServiceTests.Create.ItShould_CreateANewDepartment_FromObject - 679980eb-313a-4e68-4b46-227cecf589ee' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645544421, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645545808, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.528, 3299645546524, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Delete.ItShould_DeleteABrand_FromId - b4ae5a18-ed5f-5752-d154-905644251604' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645549637, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645550984, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645551734, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Delete.ItShould_DeleteABrand_FromId - b4ae5a18-ed5f-5752-d154-905644251604' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645555344, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645556792, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.529, 3299645557541, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Delete.ItShould_DeleteABrand_FromObject - 107e4b36-9227-b118-86e7-a4915bf2adbc' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.530, 3299645560734, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.530, 3299645562220, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.530, 3299645563062, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Delete.ItShould_DeleteABrand_FromObject - 107e4b36-9227-b118-86e7-a4915bf2adbc' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.531, 3299645572441, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.531, 3299645573902, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.531, 3299645574635, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2147483648) - 36c9bfff-e66c-8b31-534d-a032501bfd70' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.531, 3299645577635, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.532, 3299645579043, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.532, 3299645579819, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2147483648) - 36c9bfff-e66c-8b31-534d-a032501bfd70' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.532, 3299645584746, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.532, 3299645586842, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.532, 3299645587918, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: 0) - 285ac497-0096-83cb-0f40-691f31bf99d3' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.533, 3299645591720, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.533, 3299645593851, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.533, 3299645594783, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: 0) - 285ac497-0096-83cb-0f40-691f31bf99d3' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645598936, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645600440, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645601193, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2) - 4d7bbc61-fe13-22d5-023a-95837e7eaa76' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645604404, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645605817, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.534, 3299645606615, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2) - 4d7bbc61-fe13-22d5-023a-95837e7eaa76' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645610243, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645611591, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645612310, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_GetAllBrands - 6933d3bf-8ae4-e284-83ff-1bc341f647cb' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645615387, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645616815, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.535, 3299645617605, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_GetAllBrands - 6933d3bf-8ae4-e284-83ff-1bc341f647cb' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.536, 3299645621321, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.536, 3299645622736, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.536, 3299645623448, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowException_WhenBrandNotFound - b42e1f74-eed0-4d89-600b-7fcbb93e1d61' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.536, 3299645626464, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.536, 3299645627824, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.537, 3299645628578, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_ThrowException_WhenBrandNotFound - b42e1f74-eed0-4d89-600b-7fcbb93e1d61' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.537, 3299645632103, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.537, 3299645633611, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.537, 3299645634387, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_GetABrand_ById - 8139f715-f239-dd7d-4f36-266c794338f9' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.537, 3299645637424, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.538, 3299645638829, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.538, 3299645639602, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Get.ItShould_GetABrand_ById - 8139f715-f239-dd7d-4f36-266c794338f9' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.538, 3299645643343, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.538, 3299645644763, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.538, 3299645645486, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2) - e48a45e0-48c3-560e-31c0-933d669c769c' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645648414, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645649851, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645650639, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2) - e48a45e0-48c3-560e-31c0-933d669c769c' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645654335, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645655739, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.539, 3299645656453, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: 0) - 7773a6ec-322b-4555-a636-ecbfa03f73ab' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645659394, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645660722, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645661471, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: 0) - 7773a6ec-322b-4555-a636-ecbfa03f73ab' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645665143, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645666569, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.540, 3299645667310, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2147483648) - 1515000c-15c6-7c38-343b-3f789238b41e' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.541, 3299645670412, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.541, 3299645671838, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.541, 3299645672668, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowArgumentException_WhenIdIsInValid(inputId: -2147483648) - 1515000c-15c6-7c38-343b-3f789238b41e' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.542, 3299645681570, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.542, 3299645683001, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.542, 3299645683722, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_UpdateABrand_FromObject - 721f6f41-cd8d-ab7a-1d58-257ade16d9d9' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.542, 3299645686753, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.543, 3299645688204, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.543, 3299645689008, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_UpdateABrand_FromObject - 721f6f41-cd8d-ab7a-1d58-257ade16d9d9' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.543, 3299645693731, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.543, 3299645695172, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.543, 3299645695915, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowException_WhenBrandNotFound - be50e39c-8c76-2fb0-3146-0945ecd869ae' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645699146, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645700586, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645701394, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_ThrowException_WhenBrandNotFound - be50e39c-8c76-2fb0-3146-0945ecd869ae' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645705142, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645706572, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.544, 3299645707298, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_UpdateABrand_FromIdAndNameString - 0838274a-dee1-ae40-0603-1d16573307e7' started.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.545, 3299645710259, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.545, 3299645711613, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.545, 3299645712386, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'PhoneShop.Tests.BrandServiceTests.Update.ItShould_UpdateABrand_FromIdAndNameString - 0838274a-dee1-ae40-0603-1d16573307e7' completed
+TpTrace Information: 0 : 25216, 7, 2022/02/15, 10:34:18.550, 3299645760741, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.582, 3299646086050, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646090961, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646091948, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646093013, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646093324, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646094049, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.583, 3299646094553, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.586, 3299646119549, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.586, 3299646121952, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.586, 3299646122379, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 25216, 1, 2022/02/15, 10:34:18.586, 3299646122624, datacollector.dll, Program.Main: exiting datacollector process.

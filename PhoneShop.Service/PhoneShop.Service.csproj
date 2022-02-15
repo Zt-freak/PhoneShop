@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneShop.Models\PhoneShop.Models.csproj" />
+    <ProjectReference Include="..\PhoneShop.Repository\PhoneShop.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
