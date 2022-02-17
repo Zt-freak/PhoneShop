@@ -10,30 +10,30 @@ namespace PhoneShop.Tests.DepartmentServiceTests
     public class Delete
     {
         [Fact]
-        public void ItShould_DeleteABrand_FromId()
+        public void ItShould_DeleteADepartment_FromId()
         {
-            Mock<IRepository<Brand>> brandRepo = new();
-            BrandService brandService = new(brandRepo.Object);
+            Mock<IRepository<Department>> departmentRepo = new();
+            DepartmentService departmentService = new(departmentRepo.Object);
 
-            brandRepo.Setup(br => br.GetById(It.IsAny<int>())).Returns(new Brand());
-            brandService.Delete(5);
+            departmentRepo.Setup(br => br.GetById(It.IsAny<int>())).Returns(new Department());
+            departmentService.Delete(5);
 
-            brandRepo.Verify(br => br.GetById(It.IsAny<object>()), Times.Once);
-            brandRepo.Verify(br => br.Remove(It.IsAny<Brand>()), Times.Once);
-            brandRepo.Verify(br => br.SaveChanges(), Times.Once);
+            departmentRepo.Verify(br => br.GetById(It.IsAny<object>()), Times.Once);
+            departmentRepo.Verify(br => br.Remove(It.IsAny<Department>()), Times.Once);
+            departmentRepo.Verify(br => br.SaveChanges(), Times.Once);
         }
 
         [Fact]
-        public void ItShould_DeleteABrand_FromObject()
+        public void ItShould_DeleteADepartment_FromObject()
         {
-            Mock<IRepository<Brand>> brandRepo = new();
-            BrandService brandService = new(brandRepo.Object);
+            Mock<IRepository<Department>> departmentRepo = new();
+            DepartmentService departmentService = new(departmentRepo.Object);
 
-            brandRepo.Setup(br => br.GetById(It.IsAny<int>())).Returns(new Brand());
-            brandService.Delete(new Brand());
+            departmentRepo.Setup(br => br.GetById(It.IsAny<int>())).Returns(new Department());
+            departmentService.Delete(new Department());
 
-            brandRepo.Verify(br => br.Remove(It.IsAny<Brand>()), Times.Once);
-            brandRepo.Verify(br => br.SaveChanges(), Times.Once);
+            departmentRepo.Verify(br => br.Remove(It.IsAny<Department>()), Times.Once);
+            departmentRepo.Verify(br => br.SaveChanges(), Times.Once);
         }
     }
 }

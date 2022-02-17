@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Models", "PhoneShop.Models\PhoneShop.Models.csproj", "{B8520E55-9787-4D26-95D9-9F2C08E5F62B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Models", "PhoneShop.Models\PhoneShop.Models.csproj", "{B8520E55-9787-4D26-95D9-9F2C08E5F62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Repository", "PhoneShop.Repository\PhoneShop.Repository.csproj", "{DD2C7723-0F81-4F78-BFAA-9FF63DB9DFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Repository", "PhoneShop.Repository\PhoneShop.Repository.csproj", "{DD2C7723-0F81-4F78-BFAA-9FF63DB9DFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Tests", "PhoneShop.Tests\PhoneShop.Tests.csproj", "{D9A5F595-8015-42E1-AB52-620E83DE8F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Tests", "PhoneShop.Tests\PhoneShop.Tests.csproj", "{D9A5F595-8015-42E1-AB52-620E83DE8F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Service", "PhoneShop.Service\PhoneShop.Service.csproj", "{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Service", "PhoneShop.Service\PhoneShop.Service.csproj", "{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.API", "PhoneShop.API\PhoneShop.API.csproj", "{394C2631-B7DA-4EB5-BA3D-326A9928E664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394C2631-B7DA-4EB5-BA3D-326A9928E664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394C2631-B7DA-4EB5-BA3D-326A9928E664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394C2631-B7DA-4EB5-BA3D-326A9928E664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394C2631-B7DA-4EB5-BA3D-326A9928E664}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

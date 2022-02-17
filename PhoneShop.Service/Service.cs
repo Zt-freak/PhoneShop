@@ -2,10 +2,12 @@
 using PhoneShop.Models.Interfaces.Services;
 using PhoneShop.Repository.Interfaces;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace PhoneShop.Service
 {
+    [ExcludeFromCodeCoverage]
     public class Service<TEntity> : IService<TEntity> where TEntity : Entity
     {
         private static IRepository<TEntity> _entityRepo;
