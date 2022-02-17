@@ -14,7 +14,7 @@ namespace PhoneShop.Repository
         public DbSet<Department> Departments { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<ProductsPerOrder> ProductsPerOrders { get; set; }
-        public DbSet<Phone> Phones { get; set; }
+        public DbSet<Product> Phones { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

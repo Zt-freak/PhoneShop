@@ -8,40 +8,40 @@ namespace PhoneShop.API.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class BrandController : ControllerBase
+    public class ÓrderController : ControllerBase
     {
-        private readonly IBrandService _brandService;
-        public BrandController(IBrandService brandService)
+        private readonly IOrderService _orderService;
+        public ÓrderController(IOrderService orderService)
         {
-            _brandService = brandService;
+            _orderService = orderService;
         }
 
         [HttpGet]
         [Route("all")]
-        public IActionResult GetBrands() => Ok(new { Results = _brandService.GetAll() });
+        public IActionResult GetOrders() => Ok(new { Results = _orderService.GetAll() });
 
         [HttpPost]
         [Route("")]
-        public IActionResult CreateBrand(Brand brand) => Ok(_brandService.Create(brand));
+        public IActionResult CreateOrder(Order order) => Ok(_orderService.Create(order));
 
         [HttpGet]
         [Route("{id}")]
-        public IActionResult GetBrand(int id) => Ok(_brandService.Get(id));
+        public IActionResult GetOrder(int id) => Ok(_orderService.Get(id));
 
         [HttpPut]
         [Route("")]
-        public IActionResult EditBrand(Brand brand) => Ok(_brandService.Update(brand));
+        public IActionResult EditOrder(Order order) => Ok(_orderService.Update(order));
 
         [HttpDelete]
         [Route("{id}")]
-        public IActionResult DeleteBrand(int id)
+        public IActionResult DeleteOrder(int id)
         {
             try
             {
-                _brandService.Delete(id);
+                _orderService.Delete(id, 0);
                 return Ok();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
             }

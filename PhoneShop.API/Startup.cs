@@ -44,7 +44,7 @@ namespace PhoneShop.API
             services.AddScoped<IBrandService, BrandService>();
             services.AddScoped<IDepartmentService, DepartmentService>();
             services.AddScoped<IOrderService, OrderService>();
-            services.AddScoped<IPhoneService, PhoneService>();
+            services.AddScoped<IProductService, ProductService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
