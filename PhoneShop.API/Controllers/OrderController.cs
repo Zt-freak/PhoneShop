@@ -8,10 +8,10 @@ namespace PhoneShop.API.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    public class ÓrderController : ControllerBase
+    public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        public ÓrderController(IOrderService orderService)
+        public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
         }

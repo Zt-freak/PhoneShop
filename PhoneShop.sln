@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Tests", "PhoneSho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.Service", "PhoneShop.Service\PhoneShop.Service.csproj", "{C1D64114-AB0D-4A0B-839F-DE120B2E7EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.API", "PhoneShop.API\PhoneShop.API.csproj", "{394C2631-B7DA-4EB5-BA3D-326A9928E664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop.API", "PhoneShop.API\PhoneShop.API.csproj", "{394C2631-B7DA-4EB5-BA3D-326A9928E664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
